@@ -1,7 +1,7 @@
 rule all:
     input:
-        auspice_tree = "auspice/ebola_tree.json",
-        auspice_meta = "auspice/ebola_meta.json"
+        auspice_tree = "auspice/ZEBOV_tree.json",
+        auspice_meta = "auspice/ZEBOV_meta.json"
 
 rule files:
     params:
@@ -14,24 +14,6 @@ rule files:
         auspice_config = "config/auspice_config.json"
 
 files = rules.files.params
-
-rule download:
-    message: "Downloading sequences from fauna"
-    output:
-        sequences = "data/ebola.fasta"
-    params:
-        fasta_fields = "strain virus accession collection_date region country division location source locus authors url title journal puburl"
-    shell:
-        """
-        env PYTHONPATH=../fauna \
-            python2 ../fauna/vdb/download.py \
-                --database vdb \
-                --virus ebola \
-                --fasta_fields {params.fasta_fields} \
-                --resolve_method choose_genbank \
-                --path $(dirname {output.sequences}) \
-                --fstem $(basename {output.sequences} .fasta)
-        """
 
 rule parse:
     message: "Parsing fasta into sequences and metadata"
@@ -68,7 +50,7 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         group_by = "division year month",
-        sequences_per_group = 15,
+        sequences_per_group = 50,
         min_date = 2012
     shell:
         """
@@ -210,7 +192,6 @@ rule export:
         tree = rules.refine.output.tree,
         metadata = rules.parse.output.metadata,
         branch_lengths = rules.refine.output.node_data,
-        traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
         colors = files.colors,
@@ -224,7 +205,7 @@ rule export:
         augur export \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
@@ -235,7 +216,6 @@ rule export:
 rule clean:
     message: "Removing directories: {params}"
     params:
-        "data "
         "results ",
         "auspice"
     shell:

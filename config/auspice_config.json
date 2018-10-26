@@ -1,5 +1,5 @@
 {
-  "title": "Genomic epidemiology of the 2013-2016 West African Ebola epidemic",
+  "title": "Public genome sequences from the 2017-18 ebola outbreaks in the DRC",
   "color_options": {
     "gt": {
       "menuItem": "genotype",
@@ -33,8 +33,8 @@
     "geoResolution": "division"
   },  
   "maintainer": [
-    "Trevor Bedford",
-    "http://bedford.io/team/trevor-bedford/"
+    "James Hadfield",
+    "http://bedford.io/team/james-hadfield/"
   ],
   "filters": [
     "country",

@@ -2,6 +2,7 @@
 country	guinea	#86BB6D
 country	sierra_leone	#4041C7
 country	liberia	#E4682F
+country	DRC	#f768a1
 
 ## divisions
 
@@ -79,3 +80,9 @@ division	lofa	#DE3926
 division	margibi	#E35C2C
 division	maryland	#DCAB3C
 division	montserrado	#E1512A
+
+
+# DRC divisions (ad-hoc)
+division	DRC	#f768a1
+division	Likati	#7a0177
+division	tumba	#dd3497

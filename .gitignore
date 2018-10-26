@@ -2,7 +2,6 @@
 # (or at least out of _this_ git repo).
 data/
 results/
-auspice/
 build/
 
 # Sensitive environment variables
