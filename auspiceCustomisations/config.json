@@ -1,0 +1,7 @@
+{
+  "entryPage": "datasetLoader",
+  "hardcodedDataPaths": {
+    "tmpPathPrefix": "..",
+    "mainJSON": "auspice/custom.json"
+  }
+}
