@@ -211,12 +211,12 @@ rule export:
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \
             --output-meta {output.auspice_meta}
+        augur validate --json {output.auspice_meta} {output.auspice_tree}
         """
 
 rule clean:
     message: "Removing directories: {params}"
     params:
-        "results ",
-        "auspice"
+        "results "
     shell:
         "rm -rfv {params}"

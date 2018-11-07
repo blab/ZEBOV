@@ -1,36 +1,19 @@
 {
   "title": "Public genome sequences from the 2017-18 ebola outbreaks in the DRC",
   "color_options": {
-    "gt": {
-      "menuItem": "genotype",
-      "legendTitle": "Genotype",
-      "type": "discrete",
-      "key": "genotype"
-    },
-    "num_date": {
-      "menuItem": "date",
-      "legendTitle": "Sampling date",
-      "type": "continuous",
-      "key": "num_date"
-    },
-    "authors": {
-      "key":"authors",
-      "legendTitle":"Authors",
-      "menuItem":"authors",
-      "type":"discrete"
-    },
     "country": {
-    },
-    "division": {
+      "key":"country",
+      "legendTitle":"country",
+      "menuItem":"country",
+      "type":"discrete"
     }
   },
   "geo": [
-    "country",
-    "division"
+    "country"
   ],
   "defaults": {
-    "colorBy": "division",
-    "geoResolution": "division"
+    "colorBy": "country",
+    "geoResolution": "country"
   },  
   "maintainer": [
     "James Hadfield",

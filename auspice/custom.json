@@ -1,0 +1,781 @@
+{
+  "tree": {
+    "attr": {
+      "div": 0,
+      "num_date": 1975
+    },
+    "strain": "hidden_root",
+    "clade": 1,
+    "hidden": "always",
+    "children": [
+      {
+        "attr": {
+          "div": 0,
+          "num_date": 2005.3175
+        },
+        "strain": "Etoumbi/2005",
+        "clade": 220,
+        "hidden": "always",
+        "children": [
+          {
+            "attr": {
+              "div": 0,
+              "num_date": 2005.41615,
+              "date": "Apr-May 2005",
+              "country": "COG",
+              "adm1": "Cuvette Ouest",
+              "town": "Etoumbi",
+              "cases": 12,
+              "deaths":	10
+            },
+            "strain": "Etoumbi/2005",
+            "clade": 230
+          }
+        ]
+      },
+      {
+        "attr": {
+          "num_date": 2001.917,
+          "div": 0
+        },
+        "strain": "Mbomo-Kelle/2001",
+        "clade": 16,
+        "hidden": "always",
+        "children": [
+          {
+            "attr": {
+              "div": 0,
+              "num_date": 2002.4161,
+              "date": "Dec 2001-May 2002",
+              "country": "COG",
+              "adm1": "Cuvette Ouest",
+              "town": "Olloba and Entsiami",
+              "cases": 57,
+              "deaths":	42
+            },
+            "strain": "Mbomo-Kelle/2001",
+            "clade": 17
+          }
+        ]
+      },
+      {
+        "attr": {
+          "num_date": 2003.75017,
+          "div": 0
+        },
+        "strain": "Mbomo/2003",
+        "clade": 20,
+        "hidden": "always",
+        "children": [
+          {
+            "attr": {
+              "div": 0,
+              "num_date": 2003.99657,
+              "date": "Oct-Dec 2003",
+              "country": "COG",
+              "adm1": "Cuvette Ouest",
+              "town": "Mbandza",
+              "cases": 35,
+              "deaths":	29
+            },
+            "strain": "Mbomo/2003",
+            "clade": 21
+          }
+        ]
+      },
+      {
+        "attr": {
+          "div": 0,
+          "num_date": 1975
+        },
+        "strain": "div_tree_root",
+        "clade": 28,
+        "hidden": "timetree",
+        "children": [
+          {
+            "attr": {
+              "div": 0.002186,
+              "num_date": 1975
+            },
+            "strain": "anc_yam76_bon77",
+            "clade": 2,
+            "hidden": "timetree",
+            "children": [
+              {
+                "attr": {
+                  "num_date": 1976.5859,
+                  "div": 0.002188,
+                  "accession": "KR063671"
+                },
+                "strain": "Yambuku/1976",
+                "clade": 200,
+                "hidden": "timetree",
+                "children": [
+                  {
+                    "attr": {
+                      "div": 0.002188,
+                      "num_date": 1976.66803559,
+                      "date": "Aug-76",
+                      "country": "DRC",
+                      "adm1": "Mongala",
+                      "town": "Yambuku",
+                      "cases": 318,
+                      "deaths":	280
+                    },
+                    "strain": "Yambuku/1976",
+                    "clade": 201
+                  }
+                ]
+              },
+              {
+                "attr": {
+                  "num_date": 1977.41615,
+                  "div": 0.002239
+                },
+                "strain": "Bonduni/1977",
+                "clade": 400,
+                "hidden": "timetree",
+                "children": [
+                  {
+                    "attr": {
+                      "num_date": 1977.4955,
+                      "date": "Jun-77",
+                      "div": 0.002239,
+                      "country": "DRC",
+                      "adm1": "Sud-Ubangi",
+                      "town": "Bonduni",
+                      "cases": 1,
+                      "deaths":	1
+                    },
+                    "strain": "Bonduni/1977",
+                    "clade": 500
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "attr": {
+              "div": 0.002186,
+              "num_date": 1975
+            },
+            "strain": "NODE_0000002",
+            "clade": 27,
+            "hidden": "timetree",
+            "children": [
+              {
+                "attr": {
+                  "div": 0.0042120000000000005,
+                  "num_date": 1975
+                },
+                "strain": "NODE_0000003",
+                "clade": 5,
+                "hidden": "timetree",
+                "children": [
+                  {
+                    "attr": {
+                      "num_date": 2017.3066,
+                      "div": 0.012187,
+                      "accession": "MH613311"
+                    },
+                    "strain": "Likati/2017",
+                    "clade": 320,
+                    "hidden": "timetree",
+                    "children": [
+                      {
+                        "attr": {
+                          "div": 0.012187,
+                          "num_date": 2017.58316,
+                          "date": "May-July 2017",
+                          "country": "DRC",
+                          "adm1": "Bas Uele",
+                          "town": "Nambwa",
+                          "cases": 8,
+                          "deaths":	4
+                        },
+                        "strain": "Likati/2017",
+                        "clade": 330
+                      }
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "num_date": 2018.583162,
+                      "div": 0.013192,
+                      "accession": "MK007330"
+                    },
+                    "strain": "Kivu/2018",
+                    "clade": 360,
+                    "hidden": "timetree",
+                    "children": [
+                      {
+                        "attr": {
+                          "div": 0.013192,
+                          "num_date": 2019,
+                          "date": "Aug 2018-?",
+                          "country": "DRC",
+                          "adm1": "North Kivu",
+                          "town": "Mangina",
+                          "cases": 0,
+                          "deaths":	0
+                        },
+                        "strain": "Kivu/2018",
+                        "clade": 370
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "attr": {
+                  "div": 0.002467,
+                  "num_date": 1975
+                },
+                "strain": "NODE_0000004",
+                "clade": 26,
+                "hidden": "timetree",
+                "children": [
+                  {
+                    "attr": {
+                      "div": 0.007813,
+                      "num_date": 1975
+                    },
+                    "strain": "NODE_0000005",
+                    "clade": 14,
+                    "hidden": "timetree",
+                    "children": [
+                      {
+                        "attr": {
+                          "div": 0.019253,
+                          "num_date": 1975
+                        },
+                        "strain": "NODE_0000006",
+                        "clade": 8,
+                        "hidden": "timetree",
+                        "children": [
+                          {
+                            "attr": {
+                              "num_date": 2001.8158,
+                              "div": 0.02069,
+                              "accession": "KC242800"
+                            },
+                            "strain": "Mekambo/2001",
+                            "clade": 140,
+                            "hidden": "timetree",
+                            "children": [
+                              {
+                                "attr": {
+                                  "div": 0.02069,
+                                  "num_date": 2002.21081,
+                                  "date": "Oct 2001-Jul 2002",
+                                  "country": "GAB",
+                                  "adm1": "Ogooue-Ivindo",
+                                  "town": "Mendemba",
+                                  "cases": 65,
+                                  "deaths":	53
+                                },
+                                "strain": "Mekambo/2001",
+                                "clade": 150
+                              }
+                            ]
+                          },
+                          {
+                            "attr": {
+                              "num_date": 2002.9828,
+                              "div": 0.021105,
+                              "accession": "KF113529"
+                            },
+                            "strain": "Mbomo-Kelle/2002",
+                            "clade": 180,
+                            "hidden": "timetree",
+                            "children": [
+                              {
+                                "attr": {
+                                  "div": 0.021105,
+                                  "num_date": 2003.3066,
+                                  "date": "Dec 2002–Apr 2003",
+                                  "country": "COG",
+                                  "adm1": "Cuvette Ouest",
+                                  "town": "Yembelangoye and Mvoula",
+                                  "cases": 143,
+                                  "deaths":	128
+                                },
+                                "strain": "Mbomo-Kelle/2002",
+                                "clade": 190
+                              }
+                            ]
+                          }
+  
+                        ]
+                      },
+                      {
+                        "attr": {
+                          "div": 0.008018,
+                          "num_date": 1975
+                        },
+                        "strain": "NODE_0000007",
+                        "clade": 13,
+                        "hidden": "timetree",
+                        "children": [
+                          {
+                            "attr": {
+                              "num_date": 2013.91991,
+                              "div": 0.028532000000000002,
+                              "accession": "KJ660347"
+                            },
+                            "strain": "West_Africa/2013",
+                            "clade": 280,
+                            "hidden": "timetree",
+                            "children": [
+                              {
+                                "attr": {
+                                  "div": 0.028532000000000002,
+                                  "num_date": 2016.3258,
+                                  "date": "Dec 2013-Mar 2016",
+                                  "country": "GIN",
+                                  "adm1": "Gueckedou",
+                                  "town": "Meliandou",
+                                  "cases": 28616,
+                                  "deaths":	11310
+                                },
+                                "strain": "West_Africa/2013",
+                                "clade": 290
+                              }
+                            ]
+                          },
+                          {
+                            "attr": {
+                              "div": 0.017452000000000002,
+                              "num_date": 1975
+                            },
+                            "strain": "NODE_0000008",
+                            "clade": 12,
+                            "hidden": "timetree",
+                            "children": [
+                              {
+                                "attr": {
+                                  "num_date": 2008.9089,
+                                  "div": 0.017995,
+                                  "accession": "HQ613402"
+                                },
+                                "strain": "Mweka-Luebo/2008",
+                                "clade": 260,
+                                "hidden": "timetree",
+                                "children": [
+                                  {
+                                    "attr": {
+                                      "div": 0.017995,
+                                      "num_date": 2009.16427,
+                                      "date": "Dec 2008–Feb 2009",
+                                      "country": "DRC",
+                                      "adm1": "Kasai Occidental",
+                                      "town": "Kalamba",
+                                      "cases": 32,
+                                      "deaths":	15
+                                    },
+                                    "strain": "Mweka-Luebo/2008",
+                                    "clade": 270
+                                  }
+                                ]
+                              },
+                              {
+                                "attr": {
+                                  "num_date": 2007.4462,
+                                  "div": 0.017497000000000002,
+                                  "accession": "HQ613403"
+                                },
+                                "strain": "Luebo/2007",
+                                "clade": 240,
+                                "hidden": "timetree",
+                                "children": [
+                                  {
+                                    "attr": {
+                                      "div": 0.017497000000000002,
+                                      "num_date": 2007.9171,
+                                      "date": "May-Nov 2007",
+                                      "country": "DRC",
+                                      "adm1": "Kasai Occidental",
+                                      "town": "Kampungu conglomeration",
+                                      "cases": 260,
+                                      "deaths":	186
+                                    },
+                                    "strain": "Luebo/2007",
+                                    "clade": 250
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "div": 0.006158,
+                      "num_date": 1975
+                    },
+                    "strain": "NODE_0000009",
+                    "clade": 25,
+                    "hidden": "timetree",
+                    "children": [
+                      {
+                        "attr": {
+                          "num_date": 1995.0164,
+                          "div": 0.009801,
+                          "accession": "KU182905"
+                        },
+                        "strain": "Kikwit/1995",
+                        "clade": 800,
+                        "hidden": "timetree",
+                        "children": [
+                          {
+                            "attr": {
+                              "div": 0.009801,
+                              "num_date": 1995.5393,
+                              "date": "May-Jul 1995",
+                              "country": "DRC",
+                              "adm1": "Kwilu",
+                              "town": "Mwembe",
+                              "cases": 315,
+                              "deaths":	250
+                            },
+                            "strain": "Kikwit/1995",
+                            "clade": 900
+                          }
+                        ]
+                      },
+                      {
+                        "attr": {
+                          "div": 0.0066760000000000005,
+                          "num_date": 1975
+                        },
+                        "strain": "NODE_0000010",
+                        "clade": 24,
+                        "hidden": "timetree",
+                        "children": [
+                          {
+                            "attr": {
+                              "div": 0.008674000000000001,
+                              "num_date": 1975
+                            },
+                            "strain": "NODE_0000011",
+                            "clade": 18,
+                            "hidden": "timetree",
+                            "children": [
+                              {
+                                "attr": {
+                                  "num_date": 2014.56947,
+                                  "div": 0.01089,
+                                  "accession": "KP271018"
+                                },
+                                "strain": "Boende-Lokolia/2014",
+                                "clade": 300,
+                                "hidden": "timetree",
+                                "children": [
+                                  {
+                                    "attr": {
+                                      "div": 0.01089,
+                                      "num_date": 2014.758384,
+                                      "date": "Aug–Nov 2014",
+                                      "country": "DRC",
+                                      "adm1": "Tshuapa",
+                                      "town": "Inkanamongo",
+                                      "cases": 69,
+                                      "deaths":	49
+                                    },
+                                    "strain": "Boende-Lokolia/2014",
+                                    "clade": 310
+                                  }
+                                ]
+                              },
+                              {
+                                "attr": {
+                                  "num_date": 2018.3066,
+                                  "div": 0.01157,
+                                  "accession": "MH733477"
+                                },
+                                "strain": "Bikoro-Mbandaka/2018",
+                                "clade": 340,
+                                "hidden": "timetree",
+                                "children": [
+                                  {
+                                    "attr": {
+                                      "div": 0.01157,
+                                      "num_date": 2018.58316,
+                                      "date": "May-July 2018",
+                                      "country": "DRC",
+                                      "adm1": "Equateur",
+                                      "town": "Bikoro",
+                                      "cases": 54,
+                                      "deaths":	33
+                                    },
+                                    "strain": "Bikoro-Mbandaka/2018",
+                                    "clade": 350
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "attr": {
+                              "div": 0.010741,
+                              "num_date": 1975
+                            },
+                            "strain": "NODE_0000012",
+                            "clade": 23,
+                            "hidden": "timetree",
+                            "children": [
+                              {
+                                "attr": {
+                                  "div": 0.012979000000000001,
+                                  "accession": "KC242794",
+                                  "num_date": 1996.5338
+                                },
+                                "strain": "Booue/1996",
+                                "clade": 120,
+                                "hidden": "timetree",
+                                "children": [
+                                  {
+                                    "attr": {
+                                      "div": 0.012979000000000001,
+                                      "num_date": 1997.04928,
+                                      "date": "Jul-96",
+                                      "country": "GAB",
+                                      "adm1": "Ogooue-Ivindo",
+                                      "town": "Booue",
+                                      "cases": 60,
+                                      "deaths":	45
+                                    },
+                                    "strain": "Booue/1996",
+                                    "clade": 130
+                                  }
+                                ]
+                              },
+                              {
+                                "attr": {
+                                  "div": 0.011366000000000001,
+                                  "num_date": 1975
+                                },
+                                "strain": "NODE_0000013",
+                                "clade": 22,
+                                "hidden": "timetree",
+                                "children": [
+                                  {
+                                    "attr": {
+                                      "num_date": 1994.917,
+                                      "div": 0.01216,
+                                      "accession": "KC242792"
+                                    },
+                                    "strain": "Minkebe/1994",
+                                    "clade": 600,
+                                    "hidden": "timetree",
+                                    "children": [
+                                      {
+                                        "attr": {
+                                          "div": 0.01216,
+                                          "num_date": 1995.1615,
+                                          "date": "Dec 1994-Feb 1995",
+                                          "country": "GAB",
+                                          "adm1": "Ogooue-Ivindo",
+                                          "town": "Minkebe",
+                                          "cases": 52,
+                                          "deaths":	31
+                                        },
+                                        "strain": "Minkebe/1994",
+                                        "clade": 700
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "attr": {
+                                      "num_date": 1996.00273,
+                                      "div": 0.012426000000000001,
+                                      "accession": "KC242793"
+                                    },
+                                    "strain": "Mayibout/1996",
+                                    "clade": 100,
+                                    "hidden": "timetree",
+                                    "children": [
+                                      {
+                                        "attr": {
+                                          "div": 0.012426000000000001,
+                                          "num_date": 1996.3312,
+                                          "date": "Jan–Apr 1996",
+                                          "country": "GAB",
+                                          "adm1": "Ogooue-Ivindo",
+                                          "town": "Mayibout",
+                                          "cases": 37,
+                                          "deaths":	21
+                                        },
+                                        "strain": "Mayibout/1996",
+                                        "clade": 110
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "title": "Outbreaks of Zaire ebolavirus 1976-2018",
+    "color_options": {
+      "country": {
+        "key": "country",
+        "legendTitle": "country",
+        "menuItem": "country",
+        "type": "discrete"
+      },
+      "adm1": {
+        "key": "adm1",
+        "legendTitle": "adm1",
+        "menuItem": "adm1",
+        "type": "discrete"
+      },
+      "town": {
+        "key": "town",
+        "legendTitle": "town",
+        "menuItem": "town",
+        "type": "discrete"
+      },
+      "cases": {
+        "key": "cases",
+        "legendTitle": "cases",
+        "menuItem": "cases",
+        "type": "continuous"
+      },
+      "deaths": {
+        "key": "deaths",
+        "legendTitle": "deaths",
+        "menuItem": "deaths",
+        "type": "continuous"
+      }
+    },
+    "geo": {
+      "country": {
+        "GAB": {
+          "latitude": -0.5,
+          "longitude": 11.8
+        },
+        "GIN": {
+          "latitude": 10.4,
+          "longitude": -10.8
+        },
+        "DRC": {
+          "latitude": -2.9,
+          "longitude": 23.7
+        },
+        "COG": {
+          "latitude": -0.9,
+          "longitude": 15.3
+        }
+      },
+      "town": {
+        "Yambuku": {
+          "latitude": 2.825189,
+          "longitude": 22.225477
+        },
+        "Bonduni": {
+          "latitude": 2.97329,
+          "longitude": 19.349632
+        },
+        "Minkebe": {
+          "latitude": -0.183,
+          "longitude": 12.2
+        },
+        "Mwembe": {
+          "latitude": -5.040142,
+          "longitude": 18.816314
+        },
+        "Mayibout": {
+          "latitude": 0.7498,
+          "longitude": 13.1108
+        },
+        "Booue": {
+          "latitude": -0.093729,
+          "longitude": 11.949203
+        },
+        "Mendemba": {
+          "latitude": 0.700361,
+          "longitude": 14.15494
+        },
+        "Olloba and Entsiami": {
+          "latitude": 0.190251,
+          "longitude": 14.523049
+        },
+        "Yembelangoye and Mvoula": {
+          "latitude": -0.058622,
+          "longitude": 14.490323
+        },
+        "Mbandza": {
+          "latitude": 0.428506,
+          "longitude": 14.696145
+        },
+        "Etoumbi": {
+          "latitude": 0.100267,
+          "longitude": 14.889762
+        },
+        "Kampungu conglomeration": {
+          "latitude": -5.240951,
+          "longitude": 21.41033
+        },
+        "Kalamba": {
+          "latitude": -5.240951,
+          "longitude": 21.41033
+        },
+        "Meliandou": {
+          "latitude": 8.617679,
+          "longitude": -10.06135
+        },
+        "Inkanamongo": {
+          "latitude": -0.284184,
+          "longitude": 20.884538
+        },
+        "Nambwa": {
+          "latitude": 3.363367,
+          "longitude": 23.887317
+        },
+        "Bikoro": {
+          "latitude": -0.731472,
+          "longitude": 18.140101
+        },
+        "Mangina": {
+          "latitude": 0.605095,
+          "longitude": 29.309721
+        }
+      }
+    },
+    "defaults": {
+      "colorBy": "adm1",
+      "geoResolution": "town"
+    },
+    "maintainer": [
+      "James Hadfield",
+      "http://bedford.io/team/james-hadfield/"
+    ],
+    "filters": [
+      "country",
+      "adm1",
+      "town"
+    ],
+    "updated": "29 Oct 2018",
+    "virus_count": 18,
+    "author_info": {},
+    "panels": [
+      "tree",
+      "map"
+    ]
+  }
+}

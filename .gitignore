@@ -3,6 +3,7 @@
 data/
 results/
 build/
+scratch/
 
 # Sensitive environment variables
 environment*
