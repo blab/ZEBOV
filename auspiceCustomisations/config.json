@@ -1,7 +1,6 @@
 {
   "entryPage": "datasetLoader",
   "hardcodedDataPaths": {
-    "tmpPathPrefix": "..",
     "mainJSON": "auspice/custom.json"
   },
   "sidebarTheme": {
@@ -12,5 +11,6 @@
     "selectedColor": "#F1605D",
     "unselectedColor": "#F6EECA"
   },
-  "navbarComponent": "navbar.js"
+  "navbarComponent": "navbar.js",
+  "browserTitle": "ebolavirus 1976-2018"
 }
